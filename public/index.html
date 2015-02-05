@@ -1,0 +1,19 @@
+<html>
+<head>
+  <link rel="import" href="x-gif.html">
+</head>
+<body>
+  <h1>Hello!</h1>
+  <audio controls loop class="amen-source" src="24940__vexst__the-winstons-amen-brother-full-solo-4-bars.wav"></audio>
+  <x-gif index="true" src="http://i.imgur.com/BE1vB7p.gif"></x-gif>
+  <div class="container"></div>
+  <script src="index.js" type="text/javascript"></script>
+  <script>
+      [].forEach.call(document.querySelectorAll('x-gif'), function (el) {
+        el.addEventListener('click', function () {
+          el.hasAttribute('stopped') ? el.removeAttribute('stopped') : el.setAttribute('stopped', '')
+        })
+      })
+    </script>
+</body>
+</html>

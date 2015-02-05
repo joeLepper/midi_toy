@@ -1,0 +1,28 @@
+{
+  "name": "midi_toy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concat-frames": "^1.0.1",
+    "gif-stream": "^1.0.2",
+    "hyperquest": "^1.0.1",
+    "midi": "^0.9.0",
+    "react": "^0.12.2",
+    "request": "^2.51.0",
+    "sse": "0.0.6"
+  },
+  "devDependencies": {
+    "browserify": "^8.1.1",
+    "gulp": "^3.8.10",
+    "gulp-livereload": "^3.6.0",
+    "gulp-plumber": "^0.6.6",
+    "st": "^0.5.2",
+    "vinyl-transform": "^1.0.0"
+  }
+}
